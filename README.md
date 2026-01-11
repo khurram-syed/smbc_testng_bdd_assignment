@@ -68,7 +68,7 @@ reports/index.html
 ---
 ## Parallel Execution
 
-Parallel execution is enabled using JUnit Platform configuration and in TestRunner
+Parallel execution is enabled using TestNG configuration and TestRunner files
 
 ### Configuration File Location
 
