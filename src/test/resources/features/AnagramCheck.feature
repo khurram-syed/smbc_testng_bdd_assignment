@@ -16,7 +16,7 @@ Feature: Anagram Checker
       | school master     | the classroom     | true   |
       | a gentleman       | elegant man       | true   |
       | eleven plus two   | twelve plus one   | true   |
-      | apple             | paple             | false   |
+      | apple             | paple             | true   |
       | rat               | car               | false  |
 
   Scenario Outline: 2-Check if two strings are anagrams
@@ -27,4 +27,4 @@ Feature: Anagram Checker
     Examples:
       | input1   | input2   | output |
       | heart    | earth    | true   |
-      | hello    | world    | true   |
+      | hello    | ollah    | false  |
