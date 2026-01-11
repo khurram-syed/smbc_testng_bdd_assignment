@@ -1,5 +1,5 @@
 
-<suite name="SMBC Test Suite">
+<suite name="SMBC Test Suite" parallel="methods" thread-count="4">
     <test name="CucumberTest">
         <classes>
             <class name="com.smbc.runner.TestRunner" />

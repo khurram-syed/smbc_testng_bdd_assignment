@@ -68,12 +68,12 @@ reports/index.html
 ---
 ## Parallel Execution
 
-Parallel execution is enabled using JUnit Platform configuration.
+Parallel execution is enabled using JUnit Platform configuration and in TestRunner
 
 ### Configuration File Location
 
 ```text
-src/test/resources/junit-platform.properties
+src/test/resources/testng.xml
 ```
 ---
 ## Task Explanation

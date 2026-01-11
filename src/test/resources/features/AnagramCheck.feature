@@ -3,6 +3,7 @@ Feature: Anagram Checker
   I want to check if two strings are anagrams
   So that I can verify their relationship
 
+  @anagram1 @smoke
   Scenario Outline: 1-Check if two strings are anagrams
     Given the input strings "<input1>" and "<input2>"
     When I check if they are anagrams
@@ -19,6 +20,7 @@ Feature: Anagram Checker
       | apple             | paple             | true   |
       | rat               | car               | false  |
 
+  @anagram2
   Scenario Outline: 2-Check if two strings are anagrams
     Given the input strings "<input1>" and "<input2>"
     When I check if they are anagrams
