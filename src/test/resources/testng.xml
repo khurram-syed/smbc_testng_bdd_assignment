@@ -1,6 +1,6 @@
 
-<suite name="HerokuApp Test Suite">
-    <test name="Cucumber Test">
+<suite name="SMBC Test Suite">
+    <test name="CucumberTest">
         <classes>
             <class name="com.smbc.runner.TestRunner" />
         </classes>
