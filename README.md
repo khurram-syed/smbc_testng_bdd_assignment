@@ -50,7 +50,7 @@ mvn clean test
 
 ## Run from IntelliJ
 
-- Right-click `RunCucumberTest`
+- Right-click `TestRunner`
 - Select **Run**
 ```
 ---
